@@ -8,7 +8,7 @@ You have to include the library at the bottom of your html file ABOVE your code 
 
 ```html
     <!-- Include Scripts -->
-    <script src="https://raw.githubusercontent.com/BenTwi/R07-Retyped/refs/heads/main/typing.js"></script>
+    <script src="https://rawcdn.rawgit.net/BenTwi/R07-Retyped/refs/heads/main/typing.js"></script>
     <!-- Now your awesome script -->
     <script>
       
