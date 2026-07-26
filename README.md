@@ -1,18 +1,15 @@
-# typing
+# Retyped - A RedCrafter07 Library Remaster
 ## Javascript library for typing animations.
 
-**IMPORTANT:** This library is using jQuery. You can download it [here](https://jquery.com/download/)
+**IMPORTANT:** This library is a fork of [RedCrafter07's](https://github.com/RedCrafter07/) [typing library](https://github.com/RedCrafter07/typing/). Please go ahead and give him some love
 
 ## Including the library
-You have to include the library at the bottom of your html file.
+You have to include the library at the bottom of your html file ABOVE your code (Typing needs to load first; Then your script).
 
 ```html
     <!-- Include Scripts -->
-    <!-- jQuery first -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
-    <!-- Then typing -->
     <script src="https://rawcdn.rawgit.net/RedCrafter07/typing/652b416bfaa7b2f096349c85ede40e2885fd37fb/typing.js"></script>
-    <!-- Then include your script. -->
+    <!-- Now your awesome script -->
     <script>
       
     </script>
@@ -33,5 +30,14 @@ typing.delete(time, selector, typingBar, () => {
 });
 ```
 
+Instance Creation
+```js
+const someTypingInstance = typing.create(selector);
+someTypingInstance.<type|delete>
+// Creation and Deletion parameters stay the same. Refference the syntax above
+```
+
 ## Small Notice
-If you use this library, I would appreciate a little shoutout :)
+If you use this library, [RedCrafter07](https://github.com/RedCrafter07/) would appreciate a little shoutout :)
+
+[BenTwi.app](https://bentwi.app/) only requires you to shoutout him. We're just here to improve existing stuff we use & love ourselves.
