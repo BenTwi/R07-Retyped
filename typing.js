@@ -74,7 +74,7 @@ const typing = {
     }
 
     if (callback) callback();
-  }
+  },
 
     create: function(element) {
         const el = typeof element === "string" ? document.querySelector(element) : element;
