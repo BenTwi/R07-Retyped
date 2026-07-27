@@ -58,6 +58,7 @@ const typing = {
         if (!imgUrl) continue;
 
         const img = document.createElement("img");
+        img.className = `bentwi-app bentwi-chat bentwi-chat-emote emote-id-${frag.emote.id} set-id-${frag.emote.emote_set_id} owner-id-${frag.emote.owner_id} format-type-${frag.emote.format}`
         img.src = imgUrl;
         
         img.style.verticalAlign = "middle";
